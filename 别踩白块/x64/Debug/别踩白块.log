@@ -1,0 +1,24 @@
+﻿  别踩白块.cpp
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(58,31): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(247,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(58,31): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(62,36): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(62,36): message : 尝试匹配参数列表“(int, int, const char [9])”时
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(95,28): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(95,28): message : 尝试匹配参数列表“(int, int, char [20])”时
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(103,36): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [8]”转换为“LPCWSTR”
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(103,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(104,75): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [23]”转换为“LPCWSTR”
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(104,21): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9153,1): message : 参见“MessageBoxW”的声明
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(118,74): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [38]”转换为“LPCWSTR”
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(118,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(119,40): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [14]”转换为“LPCWSTR”
+C:\Users\whq\source\repos\别踩白块\别踩白块\别踩白块.cpp(119,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
